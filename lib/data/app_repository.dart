@@ -19,7 +19,7 @@ class AppRepository {
       NotificationService(client: apiClient!),
     ];
   }
-
+  //dio
   final PreferencesClient? preferencesClient;
   final ApiConfig? config;
   ApiClient? apiClient;
